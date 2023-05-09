@@ -1,7 +1,7 @@
 mkdir -p /etc/xray
 touch /etc/xray/domain
 touch /etc/xray/scdomain
-DOMEN=warungrio.cloud
+domen=warungrio.cloud
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c2)
 domain=client-${sub}.${domen}
 echo "${domain}" > /etc/xray/scdomain
