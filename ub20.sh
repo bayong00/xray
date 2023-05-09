@@ -20,7 +20,7 @@ ERROR="${Red}[ERROR]${Font}"
 # // configuration GET
 IMP="wget -q -O"
 local_date="/usr/bin/"
-myhost="https://raw.githubusercontent.com/bayong/xray/main/file/"
+myhost="https://raw.githubusercontent.com/bayong00/xray/main/file/"
 domain="cat /etc/xray/domain"
 mod="rioxy"
 
